@@ -17,6 +17,8 @@ describe('Hanoi tower', () => {
     //Functional requirements
     describe('base requirements', () => {
         it.optional('returns correct answer', () => {
+
+            // assert.deepEqual(calculateHanoi(3  ,     3600), {turns: 7, seconds: 7});
             assert.deepEqual(calculateHanoi(414, 19279842), {turns: 4.230758200257591e+124, seconds: 7.899820714779368e+120});
             assert.deepEqual(calculateHanoi(736, 78853564), {turns: 3.6147378671465184e+221, seconds: 1.6502813140731933e+217});
             assert.deepEqual(calculateHanoi(243, 58252885), {turns: 1.4134776518227075e+73, seconds: 8.735223236689046e+68});
